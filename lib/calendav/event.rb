@@ -45,6 +45,10 @@ module Calendav
       inner_event.dtend
     end
 
+    def transp
+      inner_event.transp
+    end
+
     def unloaded?
       calendar_data.nil?
     end
